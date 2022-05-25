@@ -1,0 +1,25 @@
+{
+  "name": "@justive/rescriptive",
+  "version": "1.0.0",
+  "description": "A small rescript library for better experience",
+  "repository": "https://github.com/JUSTIVE/Rescriptive.git",
+  "author": "Minsang Kim <ben399399@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "bsconfig.json",
+    "src/*.res",
+    "src/*.resi"
+  ],
+  "dependencies": {
+    "@rescript/std": "^9.1.4"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript build",
+    "watch": "rescript build -w"
+  }
+}
