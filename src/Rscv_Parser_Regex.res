@@ -17,8 +17,7 @@ module RegexGroupParserTargetInt: RegexGroupParserTarget = {
   let make = (s: string) => s->Belt.Int.fromString
 }
 
-module Make = (ParserTarget:RegexGroupParserTarget) => {
-
+module Make = (ParserTarget: RegexGroupParserTarget) => {
   type t = {
     re: Js.Re.t,
     groupNumber: array<int>,

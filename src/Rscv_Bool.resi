@@ -1,3 +1,3 @@
-let xor:(bool, bool) => bool
+let xor: (bool, bool) => bool
 
-let xnor:(bool, bool) => bool
+let xnor: (bool, bool) => bool

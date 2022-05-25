@@ -1,5 +1,5 @@
-let flatten:option<option<'a>> => option<'a> = v => 
+let flatten: option<option<'a>> => option<'a> = v =>
   switch v {
-  | Some (Some (x)) => x->Some
+  | Some(Some(x)) => x->Some
   | _ => None
-  }   
+  }
